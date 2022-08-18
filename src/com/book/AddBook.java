@@ -30,7 +30,7 @@ public class AddBook{
 			books.add( new Book(bookId , bookTitle , bookAuthor , bookCategory , bookPrice) );
 			
 			
-			System.out.print("\n\nDo you want to add more Books : ");
+			System.out.print("\n\nDo you want to add more Books ( Y / N ) : ");
 			yes_no = sc.next().charAt(0);
 			sc.nextLine();
 			
